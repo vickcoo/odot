@@ -1,0 +1,15 @@
+
+/* Class = "UIBarButtonItem"; title = "Edit"; ObjectID = "4xm-Cg-x0q"; */
+"4xm-Cg-x0q.title" = "編輯";
+
+/* Class = "UINavigationItem"; title = "🗒️ "; ObjectID = "bHq-nc-M5d"; */
+"bHq-nc-M5d.title" = "🗒️ ";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "yNY-kV-Xrf"; */
+"yNY-kV-Xrf.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITextField"; placeholder = "Type your title here"; ObjectID = "yVM-F1-Nag"; */
+"yVM-F1-Nag.placeholder" = "輸入你的標題";
+
+/* Class = "UILabel"; text = "To Do Item"; ObjectID = "zaA-Dl-6GW"; */
+"zaA-Dl-6GW.text" = "To Do Item";
