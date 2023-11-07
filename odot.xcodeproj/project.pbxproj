@@ -24,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		192928142AFA15AF00B55DD8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		194A8A2C2AF361270085548C /* odot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = odot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		194A8A2F2AF361270085548C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		194A8A312AF361270085548C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +59,7 @@
 		194A8A232AF361270085548C = {
 			isa = PBXGroup;
 			children = (
+				192928142AFA15AF00B55DD8 /* README.md */,
 				194A8A2E2AF361270085548C /* odot */,
 				194A8A2D2AF361270085548C /* Products */,
 			);
