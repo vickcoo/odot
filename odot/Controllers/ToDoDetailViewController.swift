@@ -15,8 +15,8 @@ class ToDoDetailViewController: UIViewController {
     @IBOutlet var reminderSymbolImageView: UIImageView!
     
     var todoItem: ToDoItem!
-    var newToDoItem: ToDoItem {
-        return ToDoItem(title: titleTextField.text ?? "", date: reminderDatePicker.date, note: noteTextView.text, isCompleted: todoItem.isCompleted, isReminderOn: reminderSwitch.isOn)
+    private var newToDoItem: ToDoItem {
+        return ToDoItem(id: todoItem.id, title: titleTextField.text ?? "", date: reminderDatePicker.date, note: noteTextView.text, isCompleted: todoItem.isCompleted, isReminderOn: reminderSwitch.isOn)
     }
     
     override func viewDidLoad() {
@@ -33,7 +33,7 @@ class ToDoDetailViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // save button tapped.
-        todoItem = ToDoItem(title: titleTextField.text ?? "", date: reminderDatePicker.date, note: noteTextView.text, isCompleted: todoItem.isCompleted, isReminderOn: reminderSwitch.isOn)
+        todoItem = newToDoItem
     }
     
     @IBAction func cancelButtonTapped(_ sender: UIBarButtonItem) {

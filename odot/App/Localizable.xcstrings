@@ -97,18 +97,18 @@
         }
       }
     },
-    "Hurry up! add your first to do." : {
+    "Hurry up! add your first to do" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hurry up! add your first to do."
+            "value" : "Hurry up! add your first to do"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "加快馬鞭! 新增你的第一筆 To Do 吧"
+            "value" : "快馬加鞭！新增你的第一筆 To-Do 吧"
           }
         }
       }
@@ -125,6 +125,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "沒有資料"
+          }
+        }
+      }
+    },
+    "Not Found" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not Found"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒有找到"
           }
         }
       }
@@ -173,6 +189,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "設定"
+          }
+        }
+      }
+    },
+    "Try to type another word" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try to type another word"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "嘗試其他關鍵字"
           }
         }
       }
