@@ -19,11 +19,15 @@ class TodoTableViewCell: UITableViewCell {
     
     static let identifier = "ItemCell"
     var delegate: TodoTableViewCellDelegate?
+    var checkButtonColor: UIColor {
+        return todoItem.isCompleted ? .systemBlue : .lightGray
+    }
     
     var todoItem: ToDoItem! {
         didSet {
             itemLabel.text = todoItem.title
             checkButton.isSelected = todoItem.isCompleted
+            checkButton.tintColor = checkButtonColor
             notificationSymbol.isHidden = !todoItem.isReminderOn
         }
     }
@@ -32,6 +36,7 @@ class TodoTableViewCell: UITableViewCell {
         guard let delegate = delegate else { return }
         
         delegate.toggleCheckBox(sender: self)
+        checkButton.tintColor = checkButtonColor
     }
     
 }

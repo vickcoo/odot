@@ -41,12 +41,12 @@
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5L-4W-r2X">
                                                     <rect key="frame" x="20" y="5" width="34" height="34"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                    <state key="normal" image="square" catalog="system">
+                                                    <state key="normal" image="circle" catalog="system">
                                                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="17"/>
                                                     </state>
-                                                    <state key="selected" image="checkmark.square" catalog="system"/>
+                                                    <state key="selected" image="largecircle.fill.circle" catalog="system"/>
                                                     <connections>
                                                         <action selector="checkButtonTapped:" destination="GvO-g2-0tu" eventType="touchUpInside" id="VmJ-22-aaD"/>
                                                     </connections>
@@ -220,8 +220,8 @@
     <resources>
         <image name="bell.fill" catalog="system" width="123" height="128"/>
         <image name="bell.slash.fill" catalog="system" width="119" height="128"/>
-        <image name="checkmark.square" catalog="system" width="128" height="114"/>
-        <image name="square" catalog="system" width="128" height="114"/>
+        <image name="circle" catalog="system" width="128" height="123"/>
+        <image name="largecircle.fill.circle" catalog="system" width="128" height="123"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
