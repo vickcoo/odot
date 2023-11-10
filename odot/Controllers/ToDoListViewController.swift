@@ -133,6 +133,19 @@ extension ToDoListViewController: UITableViewDelegate, UITableViewDataSource {
             saveData()
         }
     }
+    
+    func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let completeTitle = toDoItems.items[indexPath.row].isCompleted ? String(localized: "Undone") : String(localized: "Done")
+        let doneAction = UIContextualAction(style: .normal, title: completeTitle) { action, view, completionHandler in
+            self.toDoItems.items[indexPath.row].isCompleted.toggle()
+            self.tableView.reloadRows(at: [indexPath], with: .none)
+            completionHandler(true)
+        }
+        
+        doneAction.backgroundColor = .systemBlue
+        
+        return UISwipeActionsConfiguration(actions: [doneAction])
+    }
 }
 
 extension ToDoListViewController: TodoTableViewCellDelegate {
