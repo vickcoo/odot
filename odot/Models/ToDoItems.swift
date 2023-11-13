@@ -48,4 +48,18 @@ class ToDoItems {
             logger.error( "Couldn't write data of toDoItems to: \(documentURL.absoluteString)")
         }
     }
+    
+    /// Get index of target to-do item
+    /// - Parameter target: That's item which you want to find
+    /// - Returns: Index
+    func getIndexBy(target: ToDoItem) -> Int {
+        var index: Int = -1
+        for item in items {
+            if item.id == target.id {
+                index = items.firstIndex(of: item) ?? index
+            }
+        }
+        
+        return index
+    }
 }
