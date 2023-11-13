@@ -30,6 +30,7 @@ I want to record some detail technical as my note, I post more content on my blo
 
 
 ## To Do
-
-- [ ] Search
-- [ ] Swipe to complete
+- [ ] Drag to sort to-do
+- [ ] Change theme
+- [x] Search
+- [x] Swipe to complete
