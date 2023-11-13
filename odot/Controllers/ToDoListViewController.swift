@@ -62,7 +62,6 @@ class ToDoListViewController: UIViewController {
         } else {
             // add a new to-do item.
             let newIndexPath: IndexPath
-            toDoItems.items.append(source.todoItem)
             
             if isFiltering {
                 newIndexPath = IndexPath(row: filteredToDoItems.count, section: 0)
@@ -71,6 +70,7 @@ class ToDoListViewController: UIViewController {
                 newIndexPath = IndexPath(row: toDoItems.items.count, section: 0)
             }
             
+            toDoItems.items.append(source.todoItem)
             tableView.insertRows(at: [newIndexPath], with: .automatic)
         }
         
